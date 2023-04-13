@@ -13,66 +13,63 @@
 <body>
     <header>
         <h1>CSS Snippet Cheatsheet</h1>
-        <h2>Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it
+        <p>Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it
             to this page! Select any
             snippet below and it'll automatically select all of the code for you to copy.
-        </h2>
+        </p>
     </header>
 
     <main>
-        <section>
-            <h1>Flexbox Row</h1>
-            <h2>Use these three properties to create a Flexboc row layout.</h2>
-            <h3>
+        <section class="card">
+            <header>Flexbox Row</header>
+            <p><span>Use these three properties to create a Flexboc row layout.</span>
                 .row {
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
                 }
-            </h3>
+            </p>
         </section>
 
-        <section>
-            <h1>Flexbox Column</h1>
-            <h2>Use this to create a Flexbox column layout.</h2>
-            <h3>
+        <section class="card">
+            <header>Flexbox Column</header>
+            <p><span>Use this to create a Flexbox column layout.</span>
                 .column {
                 display: flex;
                 flex-direction: column
                 }
-            </h3>
+            </p>
 
-            <section>
-                <h1>CSS Grid Layout</h1>
-                <h2>Build a 12-column layout CSS Grid</h2>
-                <h3>
+            <section class="card">
+                <header>CSS Grid Layout</header>
+                <p><span>Build a 12-column layout CSS Grid</span>
                     .grid {
                         display: grid;
                         width: 100%;
                         grid-template-columns:
                         repeat (12, 1fr);
                     }
-                </h3>
+                </p>
             </section>
 
-            <section>
-        <h1>Linear Gradients</h1>
-            <h2>This will create a background linear gradient from top to bottom.</h2>
-            <h3>
+            <section class="card">
+        <header>Linear Gradients</header>
+            <p><span>This will create a background linear gradient from top to bottom.</span>
+           
                .linear-gradient-background {
                 background-image: linear-gradient-backgroundgradient(
                     rgba(232, 102, 236, 0.3) 0%;
                     rgba(232, 102, 236, 0.6) 100%
                 );
                }
-            </h3>
+            </p>
        
         </section>
 
-        <section>
-            <h1>Box Transition Glow</h1>
-                <h2>Use transition and box shadows to glow on hover.</h2>
-                <h3>
+        <section class="card">
+            <header>Box Transition Glow</header>
+                <p><span>Use transition and box shadows to glow on hover.</span>
+        
                    .code-card .card-header {
                     border-radius: 8px;
                     transition: all0.5s <ease-in->out;</ease-in->
@@ -84,26 +81,25 @@
                     rgba (232, 102, 236, 1) 0 0 15px
                     rgba (232, 102, 236, 1);
                    }
-                </h3>
+                </p>
             </section>
 
-            <section>
-                <h1>Overlay Card with Title</h1>
-                    <h2>Use position properties and negative margins to raise elements higher than their natural starting point.</h2>
-                    <h3>
+            <section class="card">
+                <header>Overlay Card with Title</header>
+                    <p><span>Use position properties and negative margins to raise elements higher than their natural starting point.</span>
+        
                      .card-header {
                         position: relative;
                         margin-top: -20px;
                      }
-                    </h3>
+                    </p>
                 </section>
-        
-            
-
-    </main>
+        </main>
 
 
-
+<footer>
+    <h3>Made with ♥ and CSS  </h3>
+</footer>
 
 </body>
 
